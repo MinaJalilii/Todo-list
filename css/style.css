@@ -1,39 +1,64 @@
 body {
     background: #353f5b;
-  }
-  .container {
+}
+
+.container {
     max-width: 400px;
     margin-top: 90px;
-  }
-  .search i {
+}
+
+.search i {
     position: absolute;
-  }
-  .search {
+}
+
+.search {
     position: relative;
-  }
-  .icon {
+}
+
+.icon {
     padding: 10px;
     left: 0;
-  }
-  .input-field {
+}
+
+.input-field {
     text-align: center;
-  }
-  
-  input[type="text"],
-  input[type="text"]:focus {
+}
+
+input[type="text"],
+input[type="text"]:focus {
     color: #fff;
     border: none;
     background: rgba(0, 0, 0, 0.3);
     max-width: 400px;
-  }
-  .todos li {
+}
+
+.todos li {
     background: #423a6f;
-  }
-  .delete {
+}
+
+.delete {
     cursor: pointer;
-  }
-  
-  
-  .filtered{
+}
+
+
+.filtered {
     display: none !important;
-  }
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+}
+
+.input-group .form-control {
+    width: auto; /* Adjust this as needed */
+    margin-right: 10px; /* Creates a small gap between the input field and the button */
+}
+
+.input-group .btn {
+    width: auto; /* Adjust if the button appears too wide or narrow */
+}
+
+.text-light {
+    text-align: center;
+}
