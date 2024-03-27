@@ -41,10 +41,10 @@ To set up the project locally, follow these steps:
 Contributions to improve the project are welcome. Please follow these steps to contribute:
 
 1. Fork the repository.
-2. Create a new branch (git checkout -b feature/AmazingFeature).
+2. Create a new branch `(git checkout -b feature/AmazingFeature)`.
 3. Make your changes.
-4. Commit your changes (git commit -m 'Add some AmazingFeature').
-5. Push to the branch (git push origin feature/AmazingFeature).
+4. Commit your changes `(git commit -m 'Add some AmazingFeature')`.
+5. Push to the branch `(git push origin feature/AmazingFeature)`.
 6. Open a pull request.
 
 
